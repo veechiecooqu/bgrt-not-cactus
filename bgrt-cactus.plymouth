@@ -1,0 +1,58 @@
+[Plymouth Theme]
+Name=BGRT-Cactus
+Description=Jimmac's spinner theme using the ACPI BGRT graphics as background with Cactus branding
+ModuleName=two-step
+
+[two-step]
+Font=Contemporary 10
+TitleFont=Contemporary 20
+ImageDir=/usr/share/plymouth/themes/bgrt-cactus
+DialogHorizontalAlignment=.5
+DialogVerticalAlignment=.4
+TitleHorizontalAlignment=.5
+TitleVerticalAlignment=.382
+HorizontalAlignment=.5
+VerticalAlignment=.65
+WatermarkHorizontalAlignment=.5
+WatermarkVerticalAlignment=.96
+Transition=fade-over
+TransitionDuration=0.5
+BackgroundStartColor=0x000000
+BackgroundEndColor=0xC0C0C0
+ProgressBarBackgroundColor=0xc0c0c0
+ProgressBarForegroundColor=0x005500
+DialogClearsFirmwareBackground=true
+MessageBelowAnimation=true
+
+[boot-up]
+UseEndAnimation=false
+UseFirmwareBackground=true
+
+[shutdown]
+UseEndAnimation=false
+UseFirmwareBackground=true
+
+[reboot]
+UseEndAnimation=false
+UseFirmwareBackground=true
+
+[updates]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Installing Updates
+SubTitle=This shouldn't take too long. Don't switch off your device.
+
+[system-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading this device
+SubTitle=Go grab a cup of coffee and relax. This will take a little while.
+
+[firmware-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading Firmware
+SubTitle=Don't switch off your device.
