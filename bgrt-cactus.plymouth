@@ -47,7 +47,7 @@ SubTitle=Sit back and relax. We'll let you know when we're done.
 SuppressMessages=true
 ProgressBarShowPercentComplete=true
 UseProgressBar=true
-Title=Upgrading this device
+Title=Resetting this device
 SubTitle=Sit back and relax. This will take a little while.
 
 [firmware-upgrade]
